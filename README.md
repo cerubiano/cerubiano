@@ -1,16 +1,15 @@
-## Hi there 👋
+# Carlos Rubiano  | Data Engineer | AWS Certified
 
-<!--
-**cerubiano/cerubiano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Data Engineer with experience in data analysis, predictive models, and machine learning solutions. Proficient in Python, SQL, and AWS, with a focus on processing and analyzing large datasets. Specialized in applied statistics, data scientist, and visualization, supporting business decision-making through data-driven insights.
 
-Here are some ideas to get you started:
+## 🚀 Technologies & Tools  
+🔹 **Languages:** Python, SQL, Bash  
+🔹 **Cloud & DevOps:** AWS (S3, Glue, Lambda, Redshift, DynamoDB), Terraform, Docker  
+🔹 **Big Data:** Apache Spark, Airflow, Kafka, dbt  
+🔹 **CI/CD:** GitHub Actions, Jenkins   
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🎓 Certificaciones
+- 🏅 **AWS Certified Data Engineer – Associate**
+- 🏅 **AWS Certified Solutions Architect – Associate**  
+
+📫 **Let's Connect!  :** [LinkedIn](https://www.linkedin.com/in/carlos-rubiano-413a18a4/)
