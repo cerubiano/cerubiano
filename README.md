@@ -1,47 +1,50 @@
-# Carlos Rubiano – AWS Cloud Architect | AI Workloads & Data Engineering
+# Carlos Rubiano – AWS Cloud Architect | Serverless & AI/ML Architectures
 
-Hi! I’m Carlos Rubiano, an AWS Cloud Architect and Data Engineer focused on designing and deploying scalable, automated, and intelligent solutions in the cloud. I help organizations transform complex business problems into clear, cloud-native architectures that are resilient, secure, and optimized for AI workloads.
+Hi, I’m Carlos Rubiano — a Cloud Architect focused on designing scalable, event-driven, and AI-ready solutions on AWS. I specialize in building architectures that enable real-time data processing, automation, and machine learning at scale.
+
+My background blends cloud architecture, serverless computing, and applied AI/ML workloads. I help organizations design secure, decoupled, and cost-efficient systems aligned with AWS best practices and business outcomes.
 
 ---
 
 ## What I Do
 
-I specialize in:
+I design cloud-native architectures to:
 
-- Designing serverless architectures for AI/ML and real-time data processing
-- Building data platforms using AWS native services and open-source tools
-- Implementing event-driven and decoupled microservice systems
-- Automating infrastructure and MLOps pipelines using IaC and CI/CD
+- Automate intelligent workflows using AWS Lambda, Bedrock, and Step Functions
+- Build resilient, event-driven applications with SQS, SNS, and API Gateway
+- Integrate ML models into production with Bedrock and SageMaker
+- Architect scalable data platforms using DynamoDB, Redshift, and Glue
+- Enable observability and governance with CloudWatch, X-Ray, and Infrastructure as Code
 
 ---
 
 ## Technologies & Tools
 
-| Domain            | Stack/Tools |
-|------------------|-------------|
-| **Languages**     | Python, SQL, Bash |
-| **Cloud**         | AWS (Lambda, S3, Glue, DynamoDB, Redshift, Bedrock, SageMaker) |
-| **DevOps/IaC**    | Terraform, GitHub Actions, Docker |
-| **Data & ML**     | Apache Spark, Airflow, Kafka, dbt |
-| **Monitoring**    | CloudWatch, X-Ray, SNS, EventBridge |
+**Languages**  
+Python, SQL, Bash
+
+**Cloud & DevOps**  
+AWS (Lambda, S3, Glue, DynamoDB, Redshift, Bedrock, SageMaker), Terraform, GitHub Actions, Docker
+
+**Orchestration & Streaming**  
+Step Functions, EventBridge, Apache Airflow, Kafka
+
+**Machine Learning & AI**  
+Amazon Bedrock, SageMaker, Scikit-learn, LangChain
 
 ---
 
-## Articles & Projects
+## Articles & Technical Content
 
-I'm currently publishing use-case-driven architecture breakdowns and cloud patterns in:
-- [Medium – AWS AI & Cloud Architecture](https://medium.com/@cerubiano)
-- [My technical blog (coming soon)](https://rubiano.cloud)
+I publish architectural breakdowns, diagrams, and hands-on use cases for building intelligent systems in the cloud:
 
-You’ll find real-world examples, diagrams, and templates designed to help developers, architects, and data engineers apply AWS patterns effectively.
+- [Medium – Cloud Architecture & AI Workloads](https://medium.com/@cerubiano)
 
 ---
 
-## Let’s Connect
+## Connect
 
 - [LinkedIn](https://www.linkedin.com/in/cerubiano)
 - [GitHub](https://github.com/cerubiano)
-- [rubiano.cloud](https://rubiano.cloud) (soon)
 
-Looking to collaborate, need help with your AWS architecture, or want to modernize your data stack? Let’s talk!
-
+Need help designing an AWS architecture, reviewing your cloud strategy, or integrating AI? Let's connect.
