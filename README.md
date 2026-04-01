@@ -1,4 +1,4 @@
-# Carlos Rubiano — Data Engineer | Travel Tech · Montreal, QC
+# Carlos Rubiano — Data Analyst & Data Engineer | Travel Tech · Montreal, QC
 
 I build data pipelines and analytical systems applied to real-world API integrations, search engine observability, and multi-source data quality.
 
