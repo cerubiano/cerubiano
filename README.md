@@ -9,22 +9,6 @@ in Canadian travel tech.
 
 ## Portfolio Projects
 
-### Flight API Data Quality Platform
-A batch data pipeline that ingests, normalizes, and scores the
-quality of flight offers from Amadeus (GDS) and Duffel (NDC).
-
-- Medallion Architecture: Bronze → Silver → Gold layers
-- Hexagonal Architecture (Ports & Adapters) for provider isolation
-- Quality scoring across four dimensions: Completeness, Validity,
-  Consistency, and Conformity
-- Results published on Tableau Public
-
-**Stack:** Python 3.12 · Pydantic v2 · PostgreSQL · Parquet · Tableau Public  
-**Repo:** [flight-api-data-quality](https://github.com/cerubiano/flight-api-data-quality)  
-**Dashboard:** [Tableau Public](https://public.tableau.com/app/profile/carlos.rubiano3854/viz/FlightAPIDataQualityPlatform/FlightAPIDataQuality?publish=yes)
-
----
-
 ### Search Engine Performance Monitor
 Monitors flight search engine behavior across 12 routes —
 domestic Canadian, short-haul, and long-haul international.
@@ -38,6 +22,22 @@ Tracks coverage, price stability, and anomalies over time.
 
 **Stack:** Python 3.12 · Pydantic v2 · PostgreSQL · Parquet · Tableau Public  
 **Repo:** [search-engine-monitor](https://github.com/cerubiano/search-engine-monitor)
+
+---
+
+### Flight API Data Quality Platform
+A batch data pipeline that ingests, normalizes, and scores the
+quality of flight offers from Amadeus (GDS) and Duffel (NDC).
+
+- Medallion Architecture: Bronze → Silver → Gold layers
+- Hexagonal Architecture (Ports & Adapters) for provider isolation
+- Quality scoring across four dimensions: Completeness, Validity,
+  Consistency, and Conformity
+- Results published on Tableau Public
+
+**Stack:** Python 3.12 · Pydantic v2 · PostgreSQL · Parquet · Tableau Public  
+**Repo:** [flight-api-data-quality](https://github.com/cerubiano/flight-api-data-quality)  
+**Dashboard:** [Tableau Public](https://public.tableau.com/app/profile/carlos.rubiano3854/viz/FlightAPIDataQualityPlatform/FlightAPIDataQuality?publish=yes)
 
 ---
 
