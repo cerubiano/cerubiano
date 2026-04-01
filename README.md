@@ -1,50 +1,83 @@
-# Carlos Rubiano – AWS Cloud Architect | Serverless & AI/ML Architectures
+# Carlos Rubiano — Data Engineer | Travel Tech · Montreal, QC
 
-Hi, I’m Carlos Rubiano — a Cloud Architect focused on designing scalable, event-driven, and AI-ready solutions on AWS. I specialize in building architectures that enable real-time data processing, automation, and machine learning at scale.
+I build data pipelines and analytical systems applied to real-world API integrations, search engine observability, and multi-source data quality.
 
-My background blends cloud architecture, serverless computing, and applied AI/ML workloads. I help organizations design secure, decoupled, and cost-efficient systems aligned with AWS best practices and business outcomes.
-
----
-
-## What I Do
-
-I design cloud-native architectures to:
-
-- Automate intelligent workflows using AWS Lambda, Bedrock, and Step Functions
-- Build resilient, event-driven applications with SQS, SNS, and API Gateway
-- Integrate ML models into production with Bedrock and SageMaker
-- Architect scalable data platforms using DynamoDB, Redshift, and Glue
-- Enable observability and governance with CloudWatch, X-Ray, and Infrastructure as Code
+Based in Montreal. Open to Data Analyst and Data Engineer roles
+in Canadian travel tech.
 
 ---
 
-## Technologies & Tools
+## Portfolio Projects
 
-**Languages**  
-Python, SQL, Bash
+### Flight API Data Quality Platform
+A batch data pipeline that ingests, normalizes, and scores the
+quality of flight offers from Amadeus (GDS) and Duffel (NDC).
 
-**Cloud & DevOps**  
-AWS (Lambda, S3, Glue, DynamoDB, Redshift, Bedrock, SageMaker), Terraform, GitHub Actions, Docker
+- Medallion Architecture: Bronze → Silver → Gold layers
+- Hexagonal Architecture (Ports & Adapters) for provider isolation
+- Quality scoring across four dimensions: Completeness, Validity,
+  Consistency, and Conformity
+- Results published on Tableau Public
 
-**Orchestration & Streaming**  
-Step Functions, EventBridge, Apache Airflow, Kafka
+**Stack:** Python 3.12 · Pydantic v2 · PostgreSQL · Parquet · Tableau Public  
+**Repo:** [flight-api-data-quality](https://github.com/cerubiano/flight-api-data-quality)  
+**Dashboard:** [Tableau Public](https://public.tableau.com/app/profile/carlos.rubiano3854/viz/FlightAPIDataQualityPlatform/FlightAPIDataQuality?publish=yes)
 
-**Machine Learning & AI**  
-Amazon Bedrock, SageMaker, Scikit-learn, LangChain
+---
+
+### Search Engine Performance Monitor
+Monitors flight search engine behavior across 12 routes —
+domestic Canadian, short-haul, and long-haul international.
+Tracks coverage, price stability, and anomalies over time.
+
+- Six days-in-advance windows per route (7 to 180 days)
+- Three anomaly detection rules: coverage drop, price spike,
+  and zero-results
+- Hexagonal Architecture with provider and repository ports
+- Full documentation: PRD, System Architecture, and layer specs
+
+**Stack:** Python 3.12 · Pydantic v2 · PostgreSQL · Parquet · Tableau Public  
+**Repo:** [search-engine-monitor](https://github.com/cerubiano/search-engine-monitor)
+
+---
+
+## Domain Knowledge
+
+Production integrations across the full travel stack:
+
+- **GDS:** Amadeus, Sabre
+- **NDC:** Direct airline connections, Duffel aggregator
+- **Rail:** RailEurope
+- **Hotels:** Hotelbeds
+- **Payments:** Multi-country gateways across LATAM (Argentina,
+  Colombia, Ecuador)
+
+I understand how flight data moves from airline inventory to OTA
+search results — and where quality breaks down.
+
+---
+
+## Technical Skills
+
+**Languages:** Python · SQL  
+**Data:** Pandas · PyArrow · Pydantic v2 · PostgreSQL  
+**Architecture:** Medallion Architecture · Hexagonal Architecture ·
+TDD · SOLID  
+**Visualization:** Tableau Public · Power BI · Looker  
+**DevOps:** Git · GitHub Actions · Docker  
+**Cloud:** AWS (EC2, S3, RDS) · Terraform
 
 ---
 
 ## Articles & Technical Content
 
-I publish architectural breakdowns, diagrams, and hands-on use cases for building intelligent systems in the cloud:
-
-- [Medium – Cloud Architecture & AI Workloads](https://medium.com/@cerubiano)
+Architectural breakdowns and hands-on use cases:  
+[Medium — Data Engineering & Travel Tech](https://medium.com/@cerubiano)
 
 ---
 
-## Connect
+## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/cerubiano)
-- [GitHub](https://github.com/cerubiano)
-
-Need help designing an AWS architecture, reviewing your cloud strategy, or integrating AI? Let's connect.
+[LinkedIn](https://www.linkedin.com/in/cerubiano/) ·
+[GitHub](https://github.com/cerubiano) ·
+cerubiano@gmail.com
